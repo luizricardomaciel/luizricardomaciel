@@ -32,21 +32,30 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando React, CSS
 
 2. Navegue até o diretório do projeto:
 
-````bash
+```bash
 cd seu-repositorio
+```
 
 3. Instale as dependências:
+
 ```bash
 npm install
+```
 
 4. Inicie o servidor de desenvolvimento:
+
 ```bash
 npm run dev
+```
 
 ## Contato
+
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo através do meu LinkedIn ou e-mail.
 Email: luizricardomacielrios@gmail.com
 Linkedin: https://www.linkedin.com/in/luiz-ricardo-maciel/
 
 © 2024 Todos os direitos reservados.
-````
+
+```
+
+```
