@@ -58,7 +58,3 @@ Email: luizricardomacielrios@gmail.com
 Linkedin: https://www.linkedin.com/in/luiz-ricardo-maciel/
 
 © 2024 Todos os direitos reservados.
-
-```
-
-```
