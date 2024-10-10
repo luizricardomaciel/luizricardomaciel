@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contact</h1>
-      <form action="">
+      <form action="https://api.staticforms.xyz/submit" method="post">
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name
@@ -23,7 +23,7 @@ function Contact() {
           </label>
           <input
             type="text"
-            email="email"
+            name="email"
             id="email"
             placeholder="Email"
             required
@@ -34,13 +34,23 @@ function Contact() {
             Message
           </label>
           <textarea
-            message="message"
+            name="message"
             id="message"
             placeholder="Message"
             required
           ></textarea>
         </div>
         <input className="hover btn" type="submit" value="Submit" />
+        <input
+          type="hidden"
+          name="accessKey"
+          value="9d2e5cfa-d0c4-492c-914c-8b0728d01a51"
+        />
+        <input
+          type="hidden"
+          name="redirectTo"
+          value="https://luizricardomaciel.vercel.app/obrigado"
+        ></input>
       </form>
     </section>
   );

@@ -6,7 +6,6 @@ import Projects from "./sections/Projects/Projects";
 import Skillls from "./sections/Skills/Skillls";
 
 function App() {
-  console.log("Test");
   return (
     <>
       <Hero />
