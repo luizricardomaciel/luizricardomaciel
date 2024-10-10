@@ -25,27 +25,30 @@ Bem-vindo ao meu portfólio! Este projeto foi desenvolvido utilizando React, CSS
 
 1. Clone o repositório:
 
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+```bash
+  git clone https://github.com/seu-usuario/seu-repositorio.git
 
-   ```
+```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
 cd seu-repositorio
+
 ```
 
 3. Instale as dependências:
 
 ```bash
 npm install
+
 ```
 
 4. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
+
 ```
 
 ## Contato
