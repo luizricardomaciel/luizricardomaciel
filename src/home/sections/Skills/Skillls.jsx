@@ -15,9 +15,9 @@ function Skillls() {
       <hr />
       <div className={styles.skillList}>
         <SkillsList src={checkMarkIcon} skill={"React"} />
-        <SkillsList src={checkMarkIcon} skill={"Angular"} />
-        <SkillsList src={checkMarkIcon} skill={"Vue"} />
-        <SkillsList src={checkMarkIcon} skill={"Tailwind CSS"} />
+        <SkillsList src={checkMarkIcon} skill={"Gulp"} />
+        <SkillsList src={checkMarkIcon} skill={"Sass"} />
+        <SkillsList src={checkMarkIcon} skill={"PHP"} />
       </div>
       <hr />
     </section>
