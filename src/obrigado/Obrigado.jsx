@@ -7,7 +7,7 @@ function Obrigado() {
       <section className={styles.container}>
         <h1>Recebi sua mensagem!</h1>
         <p>Em breve entrarei em contato ;)</p>
-        <a href="http://localhost:5173/" className="btn hover">
+        <a href="https://luizricardomaciel.vercel.app/" className="btn hover">
           Home
         </a>
       </section>

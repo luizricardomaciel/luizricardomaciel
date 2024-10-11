@@ -7,7 +7,7 @@ function Found404() {
       <section className={styles.container}>
         <h1>Pagina não encontrada</h1>
         <p>Favor voltar para home</p>
-        <a href="http://localhost:5173/" className="btn hover">
+        <a href="https://luizricardomaciel.vercel.app/" className="btn hover">
           Home
         </a>
       </section>
