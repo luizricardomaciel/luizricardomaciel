@@ -1,8 +1,8 @@
 import styles from "./ProjectsStyles.module.css";
-import neon from "../../assets/Neon-project.png";
-import blizzard from "../../assets/Blizzard-project.png";
-import criptografia from "../../assets/Criptografia-text.png";
-import ProjectCard from "../../common/ProjectCard";
+import neon from "../../../assets/Neon-project.png";
+import blizzard from "../../../assets/Blizzard-project.png";
+import criptografia from "../../../assets/Criptografia-text.png";
+import ProjectCard from "../../../common/ProjectCard";
 
 function Projects() {
   return (

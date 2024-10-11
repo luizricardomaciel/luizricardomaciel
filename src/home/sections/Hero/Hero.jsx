@@ -1,13 +1,13 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/Design uten navn.png";
-import sun from "../../assets/sun.svg";
-import moon from "../../assets/moon.svg";
-import githubLight from "../../assets/github-light.svg";
-import githubDark from "../../assets/github-dark.svg";
-import linkedinLight from "../../assets/linkedin-light.svg";
-import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/CV-Luiz Ricardo-Desenvolvedor frontEnd.pdf";
-import { useTheme } from "../../common/ThemeContetext";
+import heroImg from "../../../assets/Design uten navn.png";
+import sun from "../../../assets/sun.svg";
+import moon from "../../../assets/moon.svg";
+import githubLight from "../../../assets/github-light.svg";
+import githubDark from "../../../assets/github-dark.svg";
+import linkedinLight from "../../../assets/linkedin-light.svg";
+import linkedinDark from "../../../assets/linkedin-dark.svg";
+import CV from "../../../assets/CV-Luiz Ricardo-Desenvolvedor frontEnd.pdf";
+import { useTheme } from "../../../common/ThemeContetext";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -54,8 +54,8 @@ function Hero() {
           de programação. Decidi mergulhar de cabeça nesse universo, buscando
           constantemente aprofundar meus conhecimentos e evoluir.
         </p>
-        <a href={CV} download>
-          <button className="hover">Resume</button>
+        <a href={CV} download className="hove btn">
+          Resume
         </a>
       </div>
     </section>

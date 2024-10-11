@@ -49,7 +49,7 @@ function Contact() {
         <input
           type="hidden"
           name="redirectTo"
-          value="https://luizricardomaciel.vercel.app/obrigado"
+          value="http://localhost:5173/obrigado"
         ></input>
       </form>
     </section>
