@@ -6,7 +6,7 @@ import githubLight from "../../../assets/github-light.svg";
 import githubDark from "../../../assets/github-dark.svg";
 import linkedinLight from "../../../assets/linkedin-light.svg";
 import linkedinDark from "../../../assets/linkedin-dark.svg";
-import CV from "../../../assets/CV-Luiz Ricardo-Desenvolvedor frontEnd01.pdf";
+import CV from "../../../assets/CV-DESENVOLVEDOR FRONT END Luiz Ricardo Maciel.pdf";
 import { useTheme } from "../../../common/ThemeContetext";
 
 function Hero() {
