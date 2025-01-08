@@ -11,6 +11,16 @@
     max-width: 200px;
     border-radius: 50%;
   }
+  .click {
+    position: absolute;
+    top: -37px;
+    right: -79px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
   span {
     display: flex;
     gap: 25px;
@@ -72,6 +82,20 @@
     .hero {
       max-width: 400px;
       width: 400px;
+    }
+  }
+}
+
+@media (width <= 800px) {
+  .container {
+    .click {
+      display: none;
+    }
+    .mobile {
+      display: block;
+      position: absolute;
+      top: 37px;
+      right: -10px;
     }
   }
 }

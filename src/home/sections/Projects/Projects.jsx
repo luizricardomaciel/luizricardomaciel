@@ -2,6 +2,8 @@ import styles from "./ProjectsStyles.module.css";
 import neon from "../../../assets/Neon-project.png";
 import blizzard from "../../../assets/Blizzard-project.png";
 import criptografia from "../../../assets/Criptografia-text.png";
+import fortalecendoFe from "../../../assets/fé-project.png";
+import travelPlan from "../../../assets/travel plan.png";
 import ProjectCard from "../../../common/ProjectCard";
 
 function Projects() {
@@ -16,9 +18,20 @@ function Projects() {
           p={"LP Banco Neon"}
         />
         <ProjectCard
+          src={fortalecendoFe}
+          link="https://fortalecendo-sua-fe.vercel.app/"
+          h3={"Ebook vendas"}
+          p={"HP Fortalecendo sua fé"}
+        />
+        <ProjectCard
+          src={travelPlan}
+          link="https://travel-plan-six.vercel.app/"
+          h3={"Travel plan"}
+          p={"App de atividades"}
+        />
+        <ProjectCard
           src={criptografia}
-          link="https://www.youtube.com/
-            watch?v=ZpIel9cv4Jk&t=3997s&ab_channel=HowtoBecomeaDeveloper"
+          link="https://criptografia-de-textos-tau.vercel.app/"
           h3={"Criptografador"}
           p={"Criptografia de texto"}
         />
