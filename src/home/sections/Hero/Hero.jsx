@@ -53,7 +53,7 @@ function Hero() {
           <br />
           Ricardo
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Desenvolvedor Frontend</h2>
         <span>
           <a href="https://github.com/luizricardomaciel" target="_blank">
             <img src={githubIcon} alt="GitHub icon" />
@@ -68,7 +68,7 @@ function Hero() {
           conhecimentos e evoluir.
         </p>
         <a href={CV} download className="hove btn">
-          Resume
+          Currículo
         </a>
       </div>
     </section>

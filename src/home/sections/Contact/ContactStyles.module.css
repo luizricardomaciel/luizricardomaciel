@@ -38,6 +38,14 @@ textarea {
   color: var(--form-text-color);
 }
 
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px var(--background-color) inset !important; /* Remove sombras do navegador */
+  -webkit-text-fill-color: var(
+    --form-text-color
+  ) !important; /* Define a cor do texto visível */
+}
+
 input[type="submit"] {
   background-color: var(--btn-color);
   color: var(--btn-text-color);

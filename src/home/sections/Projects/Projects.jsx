@@ -9,7 +9,7 @@ import ProjectCard from "../../../common/ProjectCard";
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1 className="sectionTitle">Projects</h1>
+      <h1 className="sectionTitle">Projetos</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={neon}
@@ -21,12 +21,12 @@ function Projects() {
           src={fortalecendoFe}
           link="https://fortalecendo-sua-fe.vercel.app/"
           h3={"Ebook vendas"}
-          p={"HP Fortalecendo sua fé"}
+          p={"LP Fortalecendo sua fé"}
         />
         <ProjectCard
           src={travelPlan}
           link="https://travel-plan-six.vercel.app/"
-          h3={"Travel plan"}
+          h3={"Plano de viagem"}
           p={"App de atividades"}
         />
         <ProjectCard
@@ -39,7 +39,7 @@ function Projects() {
           src={blizzard}
           link="https://project-blizzard.vercel.app/"
           h3={"Blizzard"}
-          p={"Gamming Web"}
+          p={"Página Gaming"}
         />
       </div>
     </section>
