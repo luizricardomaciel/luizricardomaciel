@@ -86,6 +86,20 @@
   }
 }
 
+@media (max-width: 1050px) {
+  .container {
+    .click {
+      right: 0px;
+    }
+  }
+
+  .colorModeContainer {
+    .colorMode {
+      right: 78px;
+    }
+  }
+}
+
 @media (width <= 800px) {
   .container {
     .click {
@@ -96,6 +110,11 @@
       position: absolute;
       top: 37px;
       right: -10px;
+    }
+  }
+  .colorModeContainer {
+    .colorMode {
+      right: 0px;
     }
   }
 }
