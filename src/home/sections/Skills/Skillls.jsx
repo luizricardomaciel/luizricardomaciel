@@ -9,7 +9,7 @@ function Skillls() {
       <div className={styles.skillList}>
         <SkillsList src={checkMarkIcon} skill={"HTML"} />
         <SkillsList src={checkMarkIcon} skill={"CSS"} />
-        <SkillsList src={checkMarkIcon} skill={"JavaScript"} />
+        <SkillsList src={checkMarkIcon} skill={"JavaScript(ES6)"} />
         <SkillsList src={checkMarkIcon} skill={"TypeScript"} />
       </div>
       <hr />
@@ -20,6 +20,10 @@ function Skillls() {
         <SkillsList src={checkMarkIcon} skill={"PHP"} />
       </div>
       <hr />
+      <div className={styles.skillList}>
+        <SkillsList src={checkMarkIcon} skill={"SPA"} />
+        <SkillsList src={checkMarkIcon} skill={"API RESTful"} />
+      </div>
     </section>
   );
 }
