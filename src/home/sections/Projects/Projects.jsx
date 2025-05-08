@@ -5,6 +5,7 @@ import criptografia from "../../../assets/Criptografia-text.png";
 import fortalecendoFe from "../../../assets/fé-project.png";
 import travelPlan from "../../../assets/travel plan.png";
 import ProjectCard from "../../../common/ProjectCard";
+import sorteador from "../../../assets/Sorteador-numeros-nomes.png"
 
 function Projects() {
   return (
@@ -16,6 +17,12 @@ function Projects() {
           link="https://home-page-banco-neon.vercel.app/"
           h3={"Neon"}
           p={"LP Banco Neon"}
+        />
+        <ProjectCard
+          src={sorteador}
+          link="https://sorteador-alpha-smoky.vercel.app/"
+          h3={"Sorteador"}
+          p={"Numeros e nomes"}
         />
         <ProjectCard
           src={fortalecendoFe}
