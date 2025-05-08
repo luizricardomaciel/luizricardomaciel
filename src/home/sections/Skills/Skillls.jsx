@@ -7,22 +7,24 @@ function Skillls() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Habilidades</h1>
       <div className={styles.skillList}>
-        <SkillsList src={checkMarkIcon} skill={"HTML"} />
-        <SkillsList src={checkMarkIcon} skill={"CSS"} />
-        <SkillsList src={checkMarkIcon} skill={"JavaScript(ES6)"} />
+        <SkillsList src={checkMarkIcon} skill={"Next.js"} />
+        <SkillsList src={checkMarkIcon} skill={"React"} />
         <SkillsList src={checkMarkIcon} skill={"TypeScript"} />
+        <SkillsList src={checkMarkIcon} skill={"JavaScript(ES6)"} />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillsList src={checkMarkIcon} skill={"React"} />
-        <SkillsList src={checkMarkIcon} skill={"Gulp"} />
+        <SkillsList src={checkMarkIcon} skill={"Node.js"} />
+        <SkillsList src={checkMarkIcon} skill={"postgreSQL"} />
+        <SkillsList src={checkMarkIcon} skill={"API RESTful"} />
+        <SkillsList src={checkMarkIcon} skill={"Express"} />
+      </div>
+      <hr />
+      <div className={styles.skillList}>
+        <SkillsList src={checkMarkIcon} skill={"git & GitHub"} />
+        <SkillsList src={checkMarkIcon} skill={"tailwind"} />
         <SkillsList src={checkMarkIcon} skill={"Sass"} />
         <SkillsList src={checkMarkIcon} skill={"PHP"} />
-      </div>
-      <hr />
-      <div className={styles.skillList}>
-        <SkillsList src={checkMarkIcon} skill={"SPA"} />
-        <SkillsList src={checkMarkIcon} skill={"API RESTful"} />
       </div>
     </section>
   );
