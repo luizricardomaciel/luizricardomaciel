@@ -97,14 +97,7 @@ Meu nome é Luiz Ricardo Maciel, tenho 25 anos e sou natural de Campo Formoso, B
     style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" 
 />
-<img 
-    align="left" 
-    alt="Python" 
-    title="Python"
-    width="30px" 
-    style="padding-right: 10px;" 
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
-/>
+
 <img src="https://skillicons.dev/icons?i=postgres" width="35" height="35"/>
 <img src="https://skillicons.dev/icons?i=docker" width="35" height="35"/>
 <img src="https://skillicons.dev/icons?i=postman" width="25" height="25"/>
